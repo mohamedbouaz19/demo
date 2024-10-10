@@ -42,7 +42,7 @@ public class GroupesService {
             return sr.save(s);
             //on ajoute un student entre par l utilisateur a un groupe en specifions l id du groupe
         }
-/*
+
     public void deleteGroupe(Long id){
         List<Student> students=getAllStudentByGroupeId(id);
             students.forEach(s->{
@@ -51,7 +51,7 @@ public class GroupesService {
             rs.deleteById(id);
             
         }
-    }*/
+    
 }
 
 
